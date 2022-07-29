@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;;
+  /* font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth; */
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  height: 200vh;
+  background-color: rgb(34, 209, 162);
+  color: white;
+}
+.full-container {
+  margin: 2rem 8rem;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 2rem;
+  color: transparent;
+  background: rgb(0, 40, 117);
+  background: -webkit-linear-gradient(0deg, #1373e0 0%, #0a5fe9 100%);
+  -webkit-background-clip: text;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  position: relative;
+}
+.nav-links a {
+  color: #2f41b8;
+}
+
+.nav-links li:not(.contact) a::after {
+  position: relative;
+  display: block;
+  top: 2px;
+  content: "";
+  height: 2px;
+  width: 20px;
+  border-radius: 1rem;
+  background: #0eebeb;
+  opacity: 0;
+}
+
+.nav-links li:hover a::after {
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+
+.contact a {
+  color: #d50eeb;
+}
+
+.contact a:hover{
+    opacity: 1;
+    transition-duration: 0.3s;
+}
+
+
+.contact a::after {
+    position: relative;
+    display: block;
+    top: 2px;
+    content: "";
+    height: 2px;
+    width: 20px;
+    border-radius: 1rem;
+    background: #eb0ee4;
+    opacity: 0;
+  }
+
+/* navbar ends here */
+
+/* intro section starts*/
+
+.left-container h1, h3{
+    text-align: center;
+    margin-top: 2em;
+}
+h1 > span{
+    color: black;
+}
+
+
+/* intro section ends */
+
+/* project sectionstarts here */
+.projects-h1{
+    margin-left: 1em;
+    margin-top: 2em;
+    text-decoration: none;
+    text-transform: none;
+    color: #2f41b8;
+}
+.conatiner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    color: Black;
+    background: white;
+    width: 370px;
+    margin: 10px;
+    border-radius: 20px;
+    /* gap: 1em; */
+}
+
+.card-image{
+    background-color: aqua;
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+/* project images section starts here */
+
+.project-1{
+    background-image: url(../assets/project-images/Project_01.png);
+}
+
+.project-2{
+    background-image: url(../assets/project-images/Project_02.png);
+}
+
+.project-3{
+    background-image: url(../assets/project-images/Project_03.png);
+}
+
+.project-4{
+    background-image: url(../assets/project-images/Project_04.png);
+}
+
+.project-5{
+    background-image: url(../assets/project-images/Project_05.png);
+}
+
+.project-6{
+    background-image: url(../assets/project-images/Project_06.png);
+}
+
+.project-7{
+    background-image: url(../assets/project-images/Project_07.png);
+}
+
+.project-8{
+    background-image: url(../assets/project-images/Project_08.png);
+}
+
+.project-9{
+    background-image: url(../assets/project-images/Project_09.png);
+}
+
+.project-10{
+    background-image: url(../assets/project-images/Project_10.png);
+}
+
+.project-11{
+    background-image: url(../assets/project-images/Project_11.png);
+}
+
+.project-12{
+    background-image: url(../assets/project-images/Project_12.png);
+}
+
+.project-13{
+    background-image: url(../assets/project-images/Project_13.png);
+}
+
+.project-14{
+    background-image: url(../assets/project-images/Project_14.png);
+}
+
+.project-15{
+    background-image: url(../assets/project-images/Project_15.png);
+}
+
+/* project images section ends here */
+
+.card h2{
+    text-align: center;
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(62, 61, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: all is ease;
+}
+/* project stection ends here */
+
+/* footer */
+/* .contact{
+    background-color: whitesmoke;
+    padding-top: 1px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 10px;
+} */
