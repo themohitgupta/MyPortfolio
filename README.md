@@ -14,8 +14,8 @@
 
 
 
-### This Project too me around **4 hours** to complete.
-### And Another **4 hours** to redesign.
+### This Project took me around **4 hours** to complete.
+### And Another **4 hours** to completely redesign it.
 
 ---
 
