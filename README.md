@@ -12,17 +12,11 @@
 
 ## MyPortfolio [Live Link](https://themohitgupta.netlify.app)
 
-<!-- ---
-## What I learned from this Project?
 
-- Learnd about **css position**.
-- Learnd about **pseudo classes**.
-- Learnd about **pseudo elements**.
--->
---- 
 
-<!-- ### This Project too me around **4 hours** to complete. -->
-# This is a temporary Portfolio i will be working onto improving it.
+### This Project too me around **4 hours** to complete.
+### And Another **4 hours** to redesign.
+
 ---
 
 ![Screenshot](./screenshot/screenshot.png)
